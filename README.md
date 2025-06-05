@@ -21,7 +21,7 @@ A simple task management application built with React and Tailwind CSS.
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
+git clone <https://github.com/Emnet-tes/task-management.git>
 cd task-management
 ```
 
@@ -42,7 +42,8 @@ npm run dev
 - **Adding a Task**: Type a task title in the input field and click "Add Task" or press Enter
 - **Completing a Task**: Click the checkbox next to a task to mark it as completed
 - **Deleting a Task**: Click the "Delete" button next to a task to remove it
-- **Filtering Tasks**: Use the filter buttons (All, Active, Completed) to view different task states
+- **Editing a Task**: Click the "Edit" button next to a task to remove it
+- **Filtering Tasks**: Use the filter buttons (All, Pending, Completed) to view different task states
 
 ## Technologies Used
 
@@ -59,3 +60,6 @@ src/
   ├── index.css      # Global styles and Tailwind imports
   └── main.tsx       # Application entry point
 ```
+
+## Screenshot
+![Task Management App](tasks.png)
